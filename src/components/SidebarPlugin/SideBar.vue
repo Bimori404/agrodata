@@ -12,9 +12,10 @@
         </div>
       </a>
 
-      <a
-        href="https://www.creative-tim.com/product/vue-material-dashboard"
+      <!-- SideBar.vue
         target="_blank"
+        href=""-->
+      <a
         class="simple-text logo-normal"
       >
         {{ title }}
@@ -38,16 +39,16 @@
   </div>
 </template>
 <script>
-import SidebarLink from "./SidebarLink.vue";
+// import SidebarLink from "./SidebarLink.vue";
 
 export default {
-  components: {
-    SidebarLink,
-  },
+  // components: {
+  //   SidebarLink,
+  // },
   props: {
     title: {
       type: String,
-      default: "Vue MD",
+      default: "Agrodata",
     },
     sidebarBackgroundImage: {
       type: String,
@@ -60,25 +61,25 @@ export default {
     sidebarItemColor: {
       type: String,
       default: "green",
-      validator: (value) => {
-        let acceptedValues = ["", "purple", "blue", "green", "orange", "red"];
-        return acceptedValues.indexOf(value) !== -1;
-      },
+      // validator: (value) => {
+      //   let acceptedValues = ["", "purple", "blue", "green", "orange", "red"];
+      //   return acceptedValues.indexOf(value) !== -1;
+      // },
     },
-    sidebarLinks: {
-      type: Array,
-      default: () => [],
-    },
-    autoClose: {
-      type: Boolean,
-      default: true,
-    },
+    // sidebarLinks: {
+    //   type: Array,
+    //   default: () => [],
+    // },
+    // autoClose: {
+    //   type: Boolean,
+    //   default: true,
+    // },
   },
-  provide() {
-    return {
-      autoClose: this.autoClose,
-    };
-  },
+  // provide() {
+  //   return {
+  //     autoClose: this.autoClose,
+  //   };
+  // },
   computed: {
     sidebarStyle() {
       return {
