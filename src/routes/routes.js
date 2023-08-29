@@ -1,7 +1,6 @@
 import DashboardLayout from "@/pages/Layout/DashboardLayout.vue";
 
 import Dashboard from "@/pages/Dashboard.vue";
-import UserProfile from "@/pages/UserProfile.vue";
 import Maps from "@/pages/Maps.vue";
 
 const routes = [
@@ -15,11 +14,6 @@ const routes = [
         path: "dashboard",
         name: "Dashboard",
         component: Dashboard,
-      },
-      {
-        path: "user",
-        name: "User Profile",
-        component: UserProfile,
       },
       {
         path: "maps",
