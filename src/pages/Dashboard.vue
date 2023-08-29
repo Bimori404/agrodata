@@ -1,7 +1,7 @@
 <template>
   <div class="content">
     <div class="md-layout">
-      <div
+      <!-- Contenido --> <!-- <div
         class="md-layout-item md-medium-size-100 md-xsmall-size-100 md-size-33"
       >
         <chart-card
@@ -194,7 +194,7 @@
             </md-tabs>
           </template>
         </nav-tabs-card>
-      </div>
+      </div> -->
     </div>
   </div>
 </template>
