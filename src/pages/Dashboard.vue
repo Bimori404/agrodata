@@ -216,6 +216,8 @@ export default {
     NavTabsTable,
     OrderedTable,
   },
+
+  // Info que se muestra en el contenido //
   data() {
     return {
       dailySalesChart: {
