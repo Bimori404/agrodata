@@ -10,6 +10,20 @@
 
 ### :nube: Build Setup
 
+### Instalar entorno de desarrollo
+
+`Instalar nodejs - npm:`
+	=> node --version
+		=> v18.16.0
+	=> npm --version
+		=> v9.5.1`
+
+`instalar vue:`
+	=> npm install vue@next || npm install -g vue@next
+	=> npm install -g @vue/cli
+	=> vue --version
+		=> @vue/cli 5.0.8
+
 ### instalar dependencias
 
 `npm install` || `npm i`
@@ -18,7 +32,7 @@
 
 `npm run dev`
 
-### compilación para producción con minificación
+### compilación para producción
 
 `npm run build`
 
