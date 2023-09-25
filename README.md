@@ -12,16 +12,16 @@
 
 ### Instalar entorno de desarrollo
 
+`Instalar nodejs - npm:`
 ```
-Instalar nodejs - npm:
-
 ├── node --version
 │   └── v18.16.0
 ├── npm --version
 │   └── v9.5.1
+```
 
-instalar vue:
-
+`instalar vue:`
+```
 ├── npm install vue@next || npm install -g vue@next
 ├── npm install -g @vue/cli
 ├── vue --version
