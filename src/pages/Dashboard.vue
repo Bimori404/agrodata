@@ -181,18 +181,18 @@
 import {
   StatsCard,
   ChartCard,
-  NavTabsCard,
-  NavTabsTable,
-  OrderedTable,
+  // NavTabsCard,
+  // NavTabsTable,
+  // OrderedTable,
 } from "@/components";
 
 export default {
   components: {
     StatsCard,
     ChartCard,
-    NavTabsCard,
-    NavTabsTable,
-    OrderedTable,
+    // NavTabsCard,
+    // NavTabsTable,
+    // OrderedTable,
   },
 
   // Info que se muestra en el contenido //
